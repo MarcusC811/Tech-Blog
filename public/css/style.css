@@ -1,0 +1,36 @@
+body{
+    background-color: teal;
+}
+nav {
+    height: 150px;
+    background-color: brown;
+}
+.nav-item {
+    padding-top: 4%;
+    color: teal;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    height: 75px;
+    width: 40%;
+    font-size: larger;
+    font-weight: bold;
+}
+.nav-head{
+    background-color: teal;
+    width: 25%;
+    margin-left: 5%;
+}
+.login-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 450px;
+    padding-top: 5%;
+}
+
+.login-card {
+    width: 45%;
+    padding: 50px;
+}
