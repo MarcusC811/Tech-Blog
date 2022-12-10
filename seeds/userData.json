@@ -2,19 +2,19 @@
     {
         "id": 1,
         "name": "Marcus",
-        "username": "OVOMARK",
+        "username": "OVOMARK@gmail.com",
         "password": "1243534"
     },
     {
         "id": 2,
         "name": "Kait",
-        "username": "OVOKAIT",
+        "username": "OVOKAIT@gmail.com",
         "password": "12435345"
     },
     {
         "id": 3,
         "name": "Dave",
-        "username": "OVODAVE",
+        "username": "OVODAVE@gmail.com",
         "password": "1243222"
     }
 ]
