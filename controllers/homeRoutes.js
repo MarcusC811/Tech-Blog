@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const { post } = require('.');
 const { Post, User } = require('../models');
 
 router.get('/', async (req, res) => {
@@ -8,6 +7,7 @@ router.get('/', async (req, res) => {
 
     const posts = postInfo.map((post) => post.get({ plain: true }));
 
+    
     res.render('homepage', { 
         posts
     });

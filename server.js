@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3001;
 // const hbs = exphbs.create({ helpers });
 
 const sess = {
-  secret: 'Ethan and Kyle are GOATS',
+  secret: 'pizza',
   cookie: {
     maxAge: 4320000,
     httpOnly: true,
@@ -27,10 +27,8 @@ const sess = {
 };
 
 app.use(session(sess));
-
-// app.engine('handlebars', hbs.engine);
+app.engine('handlebars', exphbs({layoutsDir: __dirname + '/views/layouts',}));
 app.set('view engine', 'handlebars');
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
